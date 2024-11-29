@@ -13,5 +13,6 @@ Gem::Specification.new do |s|
   s.files = %w(README.md LICENSE lib/aho_corasick_matcher.rb)
   s.test_files = Dir['spec/**/*.rb']
 
-  s.add_development_dependency('rspec', '~> 3.2')
+  s.add_development_dependency('rake')
+  s.add_development_dependency('rspec')
 end
